@@ -1,0 +1,54 @@
+.button {
+    margin-right: 8px;
+    margin-left: 8px;
+    border-radius: 3px;
+    font-weight: 600;
+    line-height: normal;
+    width: 150px;
+    padding: 5px 7px;
+    cursor: pointer;
+    font: inherit;
+    transition: background .2s;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+  }
+  
+  .button:not(.special):hover  {
+    background-color: #004370;
+    border: 2px solid #004370;
+    color: #FFF;
+  }
+  
+  .button.primary {
+    background-color: #fff;
+    color: #007acd;
+    border: 2px solid #FFF;
+  }
+  
+  .button.small {
+    width: 76px;
+    height: 30px;
+  }
+  
+  .button.medium {
+    width: 142px;
+    height: 30px;
+  }
+  
+  .button.large {
+    width: 221px;
+    min-height: 46px;
+  }
+  
+  .button.special{
+    background-color: #3affaa;
+    border: 2px solid #3affaa;
+    color: #02643f;
+  }
+
+  .button.special:hover {
+    background-color: #00cd99;
+    border: 2px solid #00cd99;
+    color: #01644f;
+  }
