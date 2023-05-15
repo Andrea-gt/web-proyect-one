@@ -1,12 +1,20 @@
-import styles from './Button.module.css'
+import PropTypes from 'prop-types';
+import React from 'react';
+import styles from './Button.module.css';
 
-const Button = ({type, size, label}) => {
-    const buttonClass = `${styles.button} ${styles[type]} ${styles[size]}`
-    return (
-        <button className={buttonClass} type="button">
-            {label}
-        </button>
-    )
+function Button({ type = 'default', size = 'medium', label }) {
+  const buttonClass = `${styles.button} ${styles[type]} ${styles[size]}`;
+  return (
+    <button className={buttonClass} type="button">
+      {label}
+    </button>
+  );
 }
 
-export default Button
+Button.propTypes = {
+  type: PropTypes.string.isRequired,
+  size: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+};
+
+export default Button;
