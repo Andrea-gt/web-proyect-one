@@ -27,6 +27,7 @@
     height: auto;
     width: 110%;
     margin-right: 10%;
+    z-index: -0.5;
 }
 
 .homepage_title_logo_container {
@@ -41,3 +42,8 @@
     width: 400px;
     height: auto;
 }
+
+
+
+
+

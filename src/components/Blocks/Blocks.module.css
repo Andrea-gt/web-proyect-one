@@ -1,0 +1,252 @@
+.popular_titles {
+    background-color: #f6f1f5;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 24px;
+    position: relative;
+    z-index: 1;
+    top: -60px;
+}
+
+.popular_titles ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 11%;
+}
+
+.popular_titles li {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+h2 {
+    margin-left: 11.8%;
+    font-size: large;
+    font: inherit;
+    font-weight: 800;
+    padding-bottom: 1%;
+    color: #484848;
+}
+
+.popular_titles a h2 {
+    margin-left: 0;
+}
+
+.popular_titles a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #484848;
+    padding: 8px 12px;
+}
+
+.popular_titles a:hover h2 {
+    color: #004370;
+}
+
+.popular_titles a:hover {
+    color: #004370;
+    background-color: white;
+    box-shadow: 0 4px 24px rgba(0,0,0,.2);
+}
+
+.blocks_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    padding: 40px 190px;
+    position: relative;
+    top: -60px;
+}
+
+.sparknotes_plus {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: #008162;
+    border-radius: 15px;
+  }
+  
+  .sparknotes_plus img {
+    width: 50%;
+    height: auto;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .sparknotes_plus .new_text {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    width: 30%;
+    height: auto;
+}
+
+.sparknotes_plus_text {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    padding: 40px;
+    margin-top: 20px;
+} 
+
+.sparknotes_plus_text img {
+    width: 260px;
+    height: auto;
+} 
+
+.sparknotes_plus_text h1 {
+    margin-top: 40px;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.sparknotes_plus_buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guides_stories_container {
+    margin-top: 50px;
+    background-color: #FFF;
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    justify-content: space-between; 
+    color: #FFF;
+}
+
+.study_guides {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 49%; 
+    background-color: #007acd;
+    border-radius: inherit;
+}
+
+.short_stories {
+    padding: 40px;
+    width: 49%; 
+    background-color: #d43a6e;
+    border-radius: inherit;
+}
+
+.guides_stories_container ul {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.guides_stories_container li {
+    padding: 4px 4px;
+    font-size: 1rem;
+    line-height: 1.4;
+    list-style-type: none;
+}
+
+.guides_stories_container a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border-radius: 5px;
+    font-weight: 500;
+    background-color: #004370;
+    padding: 5px 12px;
+    transition: background .2s;
+}
+
+.guides_stories_container a:hover {
+    cursor: pointer;
+    background-color: #002031;
+}
+
+.guides_stories_container .short_stories a {
+    background-color: #6a1d37;
+}
+
+.guides_stories_container .short_stories a:hover {
+    background-color: #360f1c;
+}
+
+.william_information {
+    display: flex;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: #FFF;
+    background-color: #6b2762;
+    width: 100%;
+}
+
+.william_information {
+    display: flex;
+    border-radius: 15px;
+    margin-top: 50px;
+    color: #FFF;
+    background-color: #FFF;
+    width: 100%;
+    max-height: 275px;
+}
+
+.william_information .information{
+    background-color: #6b2762;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+    width: 60%;
+    padding: 40px;
+}
+
+.william_information button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font: inherit;
+    background-color: transparent;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: medium;
+    transition: background .2s;
+}
+
+.william_information button:hover {
+    box-shadow: 0px 0px 2px 1px rgb(231,228,230);
+}
+
+.william_information button img{
+    margin-left: 10px;
+    width: 25px;
+    height: auto;
+}
+
+.william_information .image {
+    display: flex;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    width: 40%;
+    overflow: hidden;
+}
+
+.william_information .image img {
+    width: 110%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: -150px;
+}
+

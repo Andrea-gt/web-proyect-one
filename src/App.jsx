@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar/Navbar"
 import Searchbar from "./components/Searchbar/Seachbar";
+import Blocks from "./components/Blocks/Blocks";
+
 import styles from "./App.module.css"
 import logoSVG from "/logo.svg";
 
@@ -16,6 +18,7 @@ function App() {
           <img className={styles.homepage_header_image} src='https://www.sparknotes.com/images/banner-homepage.svg'/>
         </div>
         <Searchbar/>
+        <Blocks/>
       </div>
     </>
   )

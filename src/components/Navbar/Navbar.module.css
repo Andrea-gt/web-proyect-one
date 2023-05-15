@@ -1,7 +1,7 @@
 .header_container {
     background-color: #007acd;
     display: flex;
-    padding: 0 75px;
+    padding-left: 7%;
     min-height: 64px;
     transition: background .2s;
     font-size: 14px;
@@ -13,10 +13,9 @@
 }
 
 nav {
-    margin-left: 2%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .navbar_ul {
@@ -37,8 +36,8 @@ nav {
 }
 
 .account_container {
-    padding: 0 75px;
-    margin-left: 10%;
+    padding: 0 70px;
+    margin-left: 13.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
