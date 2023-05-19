@@ -58,7 +58,8 @@ function Blocks() {
               <Button type="seconday" size="large" label="Explore PLUS Features" />
             </div>
             <p>
-              Already have an account? <b>Login</b>
+              Already have an account?
+              <b>Login</b>
             </p>
           </div>
         </div>
